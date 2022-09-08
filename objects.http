@@ -1,0 +1,32 @@
+###
+POST {{baseUrl}}/offer/interest/3
+Content-Type: application/json
+Authorization: {{token-member}}
+
+{
+  "date": "juste une date",
+  "gsm": "0475862980"
+}
+
+###
+POST {{baseUrl}}/objects/create
+Content-Type: application/json
+Authorization: {{token-member}}
+
+{
+  "type": "test",
+  "timeSlot": "mardi 18h",
+  "description": "petite descript",
+  "offeror": {
+    "username": "test3",
+    "surname": "surTest3",
+    "lastname": "lastTest3",
+    "address": {
+      "street": "streetTest3",
+      "buildingNumber": "4",
+      "postcode": "1340",
+      "commune": "Ottignies"
+    },
+    "password": "coucou"
+  }
+}

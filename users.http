@@ -1,0 +1,24 @@
+### Get all inscriptions requests
+GET {{baseUrl}}/users/inscriptions
+Content-Type: application/json
+Authorization: {{token-admin}}
+
+### Get all refusals requests
+GET {{baseUrl}}/users/refusals
+Content-Type: application/json
+Authorization: {{token-admin}}
+
+### Get inscription's info of user 5
+GET {{baseUrl}}/users/5/inscription
+Content-Type: application/json
+Authorization: {{token-admin}}
+
+### admin
+GET {{baseUrl}}/users
+Content-Type: application/json
+Authorization: {{token-admin}}
+
+### NOT admin
+GET {{baseUrl}}/users
+Content-Type: application/json
+Authorization: {{token-member}}

@@ -1,0 +1,1 @@
+# Contains all objects' pictures. Picture's name = id object.

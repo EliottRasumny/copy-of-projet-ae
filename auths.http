@@ -1,0 +1,44 @@
+### Register a new user
+POST {{baseUrl}}/auths/register
+Content-Type: application/json
+
+{
+  "username": "test3",
+  "surname": "surTest3",
+  "lastname": "lastTest3",
+  "address": {
+    "street": "streetTest3",
+    "buildingNumber": "4",
+    "postcode": "1340",
+    "commune": "Ottignies"
+  },
+  "password": "coucou"
+}
+
+### Login with default user credentials
+POST {{baseUrl}}/auths/login
+Content-Type: application/json
+
+{
+  "username": "bazz",
+  "password": "Mdpuser.1"
+}
+
+### Login with admin user credentials
+POST {{baseUrl}}/auths/login
+Content-Type: application/json
+
+{
+  "username": "bri",
+  "password": "Rad;293"
+}
+
+### Check token at application launch without a correct one
+GET http://localhost:3000/auths/token
+Content-Type: application/json
+Authorization: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImV4cCI6MTY0ODIxMjYyMSwidXNlciI6M30.wWvuCOheDMQusPX7RT_8PGI39wpCWur40eaFbOxXLU8
+
+### Check token at application launch
+GET http://localhost:3000/auths/token
+Content-Type: application/json
+Authorization: {{token-member}}

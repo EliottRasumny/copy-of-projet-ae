@@ -1,0 +1,28 @@
+### Get all objects default
+GET {{baseUrl}}/offers/all/?sort=date_desc
+Content-Type: application/json
+Authorization: {{token-member}}
+
+### Get all objects by date asc
+GET {{baseUrl}}/offers/all/?sort=date_asc
+Content-Type: application/json
+Authorization: {{token-member}}
+
+### Get all objects by interest_desc
+GET {{baseUrl}}/offers/all/?sort=interests_desc
+Content-Type: application/json
+Authorization: {{token-member}}
+
+### Get all objects by interest_asc
+GET {{baseUrl}}/offers/all/?sort=interests_asc
+Content-Type: application/json
+Authorization: {{token-member}}
+
+### Get
+POST {{baseUrl}}/offers/5/interest
+Content-Type: application/json
+Authorization: {{token-member}}
+
+{
+  "date": "today"
+}

@@ -1,0 +1,6 @@
+BaseUri=http://localhost:3000/
+JWTSecret=Donnamis
+urlDB=jdbc:postgresql://coursinfo.ipl.be:5432/dbeliott_rasumny?user=eliott_rasumny
+user=eliott_rasumny
+password=coucou
+PathToOneDrive=../../../../../../OneDrive - Haute Ecole Léonard de Vinci/ProjetAE_fichiers/

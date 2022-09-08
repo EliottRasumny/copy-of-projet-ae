@@ -1,0 +1,431 @@
+#body {
+    background-color: #e3f2fd;
+}
+
+#page {
+    height: 90vh;
+}
+
+#card {
+    border-radius: 1rem;
+}
+
+#spinner-loading {
+    color: #293354;
+}
+
+#button {
+    color: #e3f2fd;
+    background-color: #293354;
+    border-color: #293354;
+}
+
+#button:hover {
+    color: #293354;
+    background-color: #e3f2fd;
+    border-color: #293354;
+}
+
+#button-inverse {
+    color: #293354;
+    background-color: #e3f2fd;
+    border-color: #e3f2fd;
+}
+
+#button-inverse:hover {
+    color: #e3f2fd;
+    background-color: #293354;
+    border-color: #e3f2fd;
+}
+
+#backToTopButtonWrapper {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+#backToTopButton {
+    color: #293354;
+    font-size: 5vh;
+}
+
+/* ====================== NAVBAR ====================== */
+#navbar {
+    background-color: #293354;
+}
+
+#navbar-brand-wrapper {
+    background-color: #293354;
+}
+
+#navbar-brand-wrapper:hover {
+    background-color: #e3f2fd;
+}
+
+#navbar-signup {
+    color: white;
+}
+
+#navbar-signup:hover {
+    color: #293354;
+}
+
+#navbar-login {
+    color: white;
+}
+
+#navbar-login:hover {
+    color: #293354;
+}
+
+#navbar-user {
+    color: white;
+}
+
+#navbar-user:hover {
+    color: #293354;
+}
+
+#navbar-logout {
+    color: white;
+}
+
+#navbar-logout:hover {
+    color: #293354;
+}
+
+#navbar-see-my-offers {
+    color: white;
+}
+
+#navbar-see-my-offers:hover {
+    color: #293354;
+}
+
+#navbar-offer-an-object {
+    color: white;
+}
+
+#navbar-offer-an-object:hover {
+    color: #293354;
+}
+
+#navbar-inscription-request {
+    color: white;
+}
+
+#navbar-inscription-request:hover {
+    color: #293354;
+}
+
+#navbar-denied-inscriptions {
+    color: white;
+}
+
+#navbar-denied-inscriptions:hover {
+    color: #293354;
+}
+
+#navbar-research-members {
+    color: white;
+}
+
+#navbar-research-members:hover {
+    color: #293354;
+}
+
+#navbar-offers-assigned-to-me {
+    color: white;
+}
+
+#navbar-offers-assigned-to-me:hover {
+    color: #293354;
+}
+
+/* ====================== LOGIN ====================== */
+#login {
+    outline: #e3f2fd;
+    color: #e3f2fd;
+}
+
+#login:hover {
+    background-color: #e3f2fd;
+    color: #293354;
+}
+
+#card-header {
+    background-color: #293354;
+    color: #ffffff;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+#login-checkbox-connection:checked {
+    background-color: #293354;
+}
+
+#login-checkbox-password:checked {
+    background-color: #293354;
+}
+
+#submit-login {
+    color: #ffffff;
+    background-color: #293354;
+    border-color: #293354;
+}
+
+#submit-login:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ====================== SIGNUP ====================== */
+#signup {
+    outline: #e3f2fd;
+    color: #e3f2fd;
+}
+
+#signup:hover {
+    background-color: #e3f2fd;
+    color: #293354;
+}
+
+#signup-card-header {
+    background-color: #293354;
+    color: #ffffff;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+#submit-signup {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#submit-signup:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ====================== HOME ====================== */
+#home-card-header {
+    text-align: center;
+    background-color: #293354;
+    color: #ffffff;
+}
+
+#home-pagination-text {
+    color: #293354;
+}
+
+#home-pagination-text:disabled {
+    color: #e3f2fd;
+}
+
+#home-my-interest-icon {
+    color: #293354;
+}
+
+#home-submit-research-objects {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#home-submit-research-objects:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== MY PROFILE ===================*/
+#myprofile-submit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#myprofile-submit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== OBJECT DETAILS ===================*/
+#offer-details-submit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#offer-details-submit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+#offer-details-cancel {
+    background-color: #a53131;
+    border-color: #a53131;
+    color: #ffffff;
+}
+
+#offer-details-cancel:hover {
+    background-color: #ffffff;
+    border-color: #a53131;
+    color: #a53131;
+}
+
+#offer-details-submit-interest {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#offer-details-submit-interest:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+#offer-details-rate {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#offer-details-rate:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+#button-remake-offer {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#button-remake-offer:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== NEW OFFER ===================*/
+#offer-object-submit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#offer-object-submit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== INSCRIPTIONS REFUSED ===================*/
+#inscriptions-refused-submit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#inscriptions-refused-submit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== INSCRIPTIONS REQUEST ===================*/
+#inscription-submit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#inscription-submit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== USER INSCRIPTION ===================*/
+#user-inscription-refuse {
+    background-color: #a53131;
+    border-color: #a53131;
+    color: #ffffff;
+}
+
+#user-inscription-refuse:hover {
+    background-color: #ffffff;
+    border-color: #a53131;
+    color: #a53131;
+}
+
+#user-inscription-confirm {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#user-inscription-confirm:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== RESEARCH MEMBERS ===================*/
+#research-members-button {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#research-members-button:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+/* ==================== MEMBER DETAILS ===================*/
+#validate-member {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#validate-member:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+#promote-member {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#promote-member:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
+
+#declare-unfit {
+    background-color: #293354;
+    border-color: #293354;
+    color: #ffffff;
+}
+
+#declare-unfit:hover {
+    background-color: #ffffff;
+    border-color: #293354;
+    color: #293354;
+}
